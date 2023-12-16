@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  justify-content: center;
+}
+#eg1 {
+  margin: 20px;
+  display: flex;
+  width: auto;
+  height: 300px;
+  flex-wrap: wrap;
+  border: solid #000000;
+}
+#eg1 > h2 {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+div > p
+ {
+  padding-left: 20px;
+  justify-content: center;
+  line-height: normal;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+#eg2 > img {
+  padding: 20px;
+}
+#eg2>h2{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+#eg2>a,#eg1>a{
+    padding-left: 20px;
+    color: #000000;
+    font-size: 19px;
+  font-weight: 500;
+}
+#eg3>ol{
+
+    padding-left: 40px;
+  justify-content: center;
+  line-height: normal;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  
+
+}
+#eg3>h2{
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+#eg4{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
